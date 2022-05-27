@@ -1,0 +1,114 @@
+body{
+    background-color: aqua;
+}
+
+#total{
+    width: 100%;
+    height:100%;
+   position: absolute;
+   top:0;
+   left: 0;
+}
+
+#preto{
+    width: 100px;
+    height:100px;
+    background: black;
+    position: relative;
+    display: table-column;
+    float: left;
+}
+
+#branco{
+    width: 100px;
+    height:100px;
+    background: white;
+    position: relative;
+    display: table-column;
+    float: left;
+}
+#coluna1{
+    width: auto;
+    display: table-row;
+    z-index: 1;
+}
+#coluna2{
+    width: auto;
+    display: table-row;
+    z-index: 1;
+}
+#coluna3{
+    width: auto;
+    display: table-row;
+    z-index: 1;
+}
+#xadrez{
+    width: 800px;
+    height: 800px;
+    position: relative;
+    display: table;
+    border: 2px solid lightgrey;
+    top: 50px;
+}
+#coluna4{
+    width: auto;
+    display: table-row;
+    z-index: 1;
+}
+#coluna5{
+    width: auto;
+    display: table-row;
+    z-index: 1;
+}
+#coluna6{
+    width: auto;
+    display: table-row;
+    z-index: 1;
+}#coluna7{
+    width: auto;
+    display: table-row;
+    z-index: 1;
+}
+#coluna8{
+    width: auto;
+    display: table-row;
+    z-index: 1;
+}
+#cava{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    animation: linho 16s infinite;
+    z-index: 2;
+
+}
+@keyframes linho {
+    0%{margin-left:00px; margin-top:00px;}
+    4%{margin-left:00px; margin-top:100px;}
+    8%{margin-left:00px; margin-top:200px;}
+    12%{margin-left:-100px; margin-top:200px;}
+    16%{margin-left: -100px; margin-top:300px;}
+    20%{margin-left: -100px; margin-top:400px;}
+    24%{margin-left: -200px; margin-top:400px;}
+    28%{margin-left: -200px; margin-top:500px;}
+    32%{margin-left: -300px; margin-top:500px;}
+    36%{margin-left: -400px; margin-top:500px;}
+    40%{margin-left: -500px; margin-top:500px;}
+    44%{margin-left: -500px; margin-top:600px;}
+    48%{margin-left: -500px; margin-top:700px;}
+    52%{margin-left: -500px; margin-top:600px;}
+    56%{margin-left: -500px; margin-top:500px;}
+    60%{margin-left: -400px; margin-top:500px;}
+    64%{margin-left: -300px; margin-top:500px;}
+    68%{margin-left: -200px; margin-top:500px;}
+    72%{margin-left: -200px; margin-top:400px;}
+    76%{margin-left: -100px; margin-top:400px;}
+    80%{margin-left: -100px; margin-top:300px;}
+    84%{margin-left:-100px; margin-top:200px;}
+    88%{margin-left:00px; margin-top:200px;}
+    92%{margin-left:00px; margin-top:100px;}
+    
+ 
+   
+  
+}
